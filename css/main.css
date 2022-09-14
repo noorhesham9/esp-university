@@ -142,8 +142,8 @@ header .containH .burgericon .burger-icon-to-x span {
   position: absolute;
   width: 100%;
   left: 0px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 header .containH .burgericon .burger-icon-to-x .num1 {
   top: 0;
@@ -166,8 +166,8 @@ header .containH .burgericon .x-icon-to-burger span {
   position: absolute;
   width: 100%;
   left: 0px;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 header .containH .burgericon .x-icon-to-burger .num2 {
   opacity: 0;

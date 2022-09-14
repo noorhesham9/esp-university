@@ -29,7 +29,7 @@ burger.addEventListener("click", function() {
         burgernum3.style.backgroundcolor = "white"
         burgernum3.style.rotate = "none"
         burgernum3.style.transform = "none"
-    }, 200)
+    }, 500)
 });
 
 x.addEventListener("click", function() {
@@ -57,7 +57,7 @@ x.addEventListener("click", function() {
         xnum3.style.top = "7px"
         xnum3.style.backgroundcolor = "red"
         xnum3.style.rotate = "-45deg"
-    }, 200)
+    }, 500)
 
 });
 
@@ -68,7 +68,7 @@ let followTeam = document.getElementById("followTeam")
 let aAfterfollowTeam = document.querySelector("#followTeam a")
 
 teamDown.addEventListener("click", function() {
-
+    console.log("a7a")
     teamDown.style.display = "none"
     teamUp.style.display = "block"
     followTeam.style.display = "block"
