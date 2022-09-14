@@ -34,7 +34,7 @@ burger.addEventListener("click", function() {
 
 x.addEventListener("click", function() {
     nav.style.right = "-100%"
-        // menu.style.display = "none"
+
     xnum2.style.backgroundcolor = "white"
     xnum2.style.opacity = "1"
     xnum2.style.top = "7"
@@ -68,7 +68,7 @@ let followTeam = document.getElementById("followTeam")
 let aAfterfollowTeam = document.querySelector("#followTeam a")
 
 teamDown.addEventListener("click", function() {
-    console.log("a7a")
+
     teamDown.style.display = "none"
     teamUp.style.display = "block"
     followTeam.style.display = "block"
