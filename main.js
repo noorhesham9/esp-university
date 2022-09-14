@@ -29,7 +29,7 @@ burger.addEventListener("click", function() {
         burgernum3.style.backgroundcolor = "white"
         burgernum3.style.rotate = "none"
         burgernum3.style.transform = "none"
-    }, 500)
+    }, 200)
 });
 
 x.addEventListener("click", function() {
@@ -57,7 +57,7 @@ x.addEventListener("click", function() {
         xnum3.style.top = "7px"
         xnum3.style.backgroundcolor = "red"
         xnum3.style.rotate = "-45deg"
-    }, 500)
+    }, 200)
 
 });
 
