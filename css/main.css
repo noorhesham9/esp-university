@@ -16,6 +16,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   position: relative;
+  background-color: #f2f2f2;
 }
 
 ul {
@@ -526,28 +527,111 @@ header nav .links .follow-team a {
   background-color: #77c7ee;
   border: none;
 }
-@media (max-width: 767px) {
+@media (min-width: 629px) {
   .landing .dots {
-    top: 85%;
+    bottom: 45%;
   }
 }
 @media (min-width: 768px) {
   .landing .dots {
-    top: 80%;
+    bottom: 37%;
   }
 }
 @media (min-width: 992px) {
   .landing .dots {
-    top: 75%;
+    bottom: 30%;
   }
 }
 @media (min-width: 1200px) {
   .landing .dots {
-    top: 70%;
+    bottom: 25%;
   }
 }
 
 .landingyahia img {
   width: 100%;
   height: 100%;
+}
+
+.all {
+  background-color: white;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 2px;
+}
+.all > div {
+  height: 306px;
+}
+.all > div a {
+  text-decoration: none;
+  color: white;
+}
+.all > div .image {
+  margin-top: 61px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.all > div h4 {
+  font-size: 23px;
+  padding: 35px 0 0;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Autour One", cursive;
+  font-weight: 100;
+}
+.all > div p {
+  padding: 5px 18px 10px;
+  text-align: center;
+  margin: 0;
+  font-family: open sans, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  margin-bottom: 40px;
+}
+.all .library {
+  background-color: #6fb8dc;
+}
+.all .students {
+  background-color: #e44f55;
+}
+.all .schedule {
+  background-color: #eb8420;
+}
+@media (max-width: 320px) {
+  .all {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+}
+.y {
+  -webkit-transform: translateY(-170px);
+          transform: translateY(-170px);
+}
+
+section .header {
+  text-align: center;
+  background-color: white;
+}
+section .header h3 {
+  margin-top: 21px;
+  display: inline-block;
+  padding: 16px 0 13px;
+  margin-bottom: 30px;
+  position: relative;
+  font: 34px/40px "Autour One", cursive;
+  color: #444;
+}
+section .header h3 span::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 108px;
+  height: 2px;
+  background: #cecece;
+  left: 50%;
+  margin-left: -54px;
 }

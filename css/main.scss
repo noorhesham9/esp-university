@@ -17,6 +17,7 @@
     body {
         font-family: 'Open Sans', sans-serif;
         position: relative;
+        background-color: #f2f2f2;
     }
     
     ul {
@@ -479,24 +480,29 @@
                 }
             }
         }
-        @media (max-width:767px) {
+        // @media (max-width:642) {
+        //     .dots {
+        //         bottom: 15%;
+        //     }
+        // }
+        @media (min-width:629px) {
             .dots {
-                top: 85%;
+                bottom: 45%;
             }
         }
         @media (min-width:768px) {
             .dots {
-                top: 80%;
+                bottom: 37%;
             }
         }
         @media (min-width:992px) {
             .dots {
-                top: 75%;
+                bottom: 30%;
             }
         }
         @media (min-width:1200px) {
             .dots {
-                top: 70%;
+                bottom: 25%;
             }
         }
     }
@@ -505,5 +511,108 @@
         img {
             width: 100%;
             height: 100%;
+        }
+    }
+    
+    // strating section labrary students Schedule
+    .all {
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+        gap: 2px;
+        // transform: translateY(-170px);
+        >div {
+            a {
+                text-decoration: none;
+                color: white;
+            }
+            .image {
+                margin-top: 61px;
+                display: flex;
+                justify-content: center;
+                img {}
+            }
+            h4 {
+                font-size: 23px;
+                padding: 35px 0 0;
+                text-align: center;
+                text-decoration: none;
+                font-family: "Autour One", cursive;
+                font-weight: 100;
+            }
+            p {
+                padding: 5px 18px 10px;
+                text-align: center;
+                margin: 0;
+                font-family: open sans, sans-serif;
+                font-size: 13px;
+                line-height: 18px;
+                margin-bottom: 40px;
+            }
+            height: 306px;
+        }
+        .library {
+            background-color: #6fb8dc;
+            // .image {
+            //     img {
+            //         text-align: center
+            //     }
+            // }
+            // h4 {}
+            // p {}
+        }
+        .students {
+            background-color: #e44f55;
+            .image {
+                img {}
+            }
+            h4 {}
+            p {}
+        }
+        .schedule {
+            background-color: #eb8420;
+            .image {
+                img {}
+            }
+            h4 {}
+            p {}
+        }
+    }
+    
+    @media(max-width:320px) {
+        .all {
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        }
+    }
+    
+    .y {
+        transform: translateY(-170px);
+    }
+    
+    section {
+        .header {
+            text-align: center;
+            background-color: white;
+            h3 {
+                margin-top: 21px;
+                display: inline-block;
+                padding: 16px 0 13px;
+                margin-bottom: 30px;
+                position: relative;
+                font: 34px/40px'Autour One', cursive;
+                color: #444;
+                span {
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        bottom: 0;
+                        width: 108px;
+                        height: 2px;
+                        background: #cecece;
+                        left: 50%;
+                        margin-left: -54px;
+                    }
+                }
+            }
         }
     }
