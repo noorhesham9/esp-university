@@ -25,8 +25,25 @@
             </div>
             <ul class="links">
                 <li> <a href="#">HOME</a> </li>
-                <li>
-                    <a href="#">ABOUT</a> </li>
+                <li id="abouthover" class="abouthover">
+                    <a href="#">ABOUT</a>
+                    <i id="about_Down" class="fa-solid fa-angle-down"></i>
+                    <i id="about_Up" style="display:none" class="fa-solid fa-angle-up"></i>
+                    <ul id="hoverOnAbout" class="hoverOnAbout">
+                        <li class="first-hover"><a href="#">History</a> </li>
+
+                        <li class="TestiIN"><a href="#">Team</a>
+                            <a class="testi" href="#">Testimonials</a>
+                        </li>
+
+                        <li><a href="#">FAQs</a> </li>
+
+                        <li><a href="#"> Template settings</a></li>
+
+                        <li class="last"><a href="#">Forum</a> </li>
+                    </ul>
+                </li>
+
                 <li><a href="#"> PROGRAMS</a></li>
                 <li><a href="#">NEWS & EVENTS</a> </li>
                 <li><a href="#">CONTACTS</a> </li>
@@ -56,6 +73,7 @@
                     <i id="aboutDown" class="fa-regular fa-circle-down"></i>
                     <i id="aboutUp" class="fa-regular fa-circle-up"></i>
                 </li>
+
                 <!-- follow about -->
                 <li id="about1" class="follow-about"><a href="#">History</a> </li>
                 <li id="about2" class="follow-about team"><a href="#">Team</a>
@@ -73,8 +91,34 @@
                 <li><a href="#">CONTACTS</a> </li>
             </ul>
         </nav>
-        <!-- خلاص زهقت يا ولاد القحبه -->
     </header>
+
+    <section id="imagesLanding" class="imagesLanding">
+        <div class="landing">
+            <div class="images">
+                <div class="image1">
+                    <img src="image/slide-1.jpg" alt="">
+                </div>
+                <div class="image2">
+                    <img src="image/slide-2.jpg" alt="">
+                </div>
+                <div class="image3">
+                    <img src="image/slide-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="dots">
+                <span id="dot1" class="active"></span>
+                <span id="dot2"></span>
+                <span id="dot3"></span>
+            </div>
+        </div>
+    </section>
+    <section>
+
+    </section>
+    <section style="height:300px; background-color:red;">
+    </section>
+
 
 
     <script src="main.js"></script>

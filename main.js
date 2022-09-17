@@ -136,3 +136,124 @@ aboutUp.addEventListener("click", function() {
         followAbout6.style.display = "none"
     }, 220)
 })
+
+
+
+
+
+
+let imagesLanding = document.getElementById("imagesLanding")
+
+
+window.onresize = WindowSize;
+window.onload = WindowSize;
+
+function WindowSize() {
+    let myWidth = window.innerWidth;
+    imagesLanding.style.width = `${myWidth.toString()}px - 20px`
+        // الرقم اللي تحت ده هو ال النسبه بين الطول والعرض للصوره علشان اخلي الاب يتغير علي اساس الصوره 
+    imagesLanding.style.height = `calc(${myWidth.toString() / 1.9604743083003952569169960474308}px + 86px)`
+};
+
+
+// landing dots
+let landDot1 = document.querySelector(".landing .dots #dot1")
+let landDot2 = document.querySelector(".landing .dots #dot2")
+let landDot3 = document.querySelector(".landing .dots #dot3")
+let landimg1 = document.querySelector(".landing .images .image1")
+let landimg2 = document.querySelector(".landing .images .image2")
+let landimg3 = document.querySelector(".landing .images .image3")
+
+function imagenum1() {
+    landDot1.classList.add("active")
+    landDot2.classList.remove("active")
+    landDot3.classList.remove("active")
+    landimg1.style.left = "0"
+    landimg2.style.left = "100%"
+    landimg3.style.left = "200%"
+}
+
+function imagenum2() {
+    landDot1.classList.remove("active")
+    landDot2.classList.add("active")
+    landDot3.classList.remove("active")
+    landimg2.style.left = "0"
+    landimg1.style.left = "-100%"
+    landimg3.style.left = "100%"
+}
+
+function imagenum3() {
+    landDot1.classList.remove("active")
+    landDot2.classList.remove("active")
+    landDot3.classList.add("active")
+    landimg2.style.left = "-100%"
+    landimg1.style.left = "-200%"
+    landimg3.style.left = "0%"
+}
+landDot1.addEventListener("click", function imagenum1() {
+    landDot1.classList.add("active")
+    landDot2.classList.remove("active")
+    landDot3.classList.remove("active")
+    landimg1.style.left = "0"
+    landimg2.style.left = "100%"
+    landimg3.style.left = "200%"
+})
+
+
+landDot2.addEventListener("click", function imagenum2() {
+    landDot1.classList.remove("active")
+    landDot2.classList.add("active")
+    landDot3.classList.remove("active")
+    landimg2.style.left = "0"
+    landimg1.style.left = "-100%"
+    landimg3.style.left = "100%"
+})
+
+landDot3.addEventListener("click", function imagenum3() {
+    landDot1.classList.remove("active")
+    landDot2.classList.remove("active")
+    landDot3.classList.add("active")
+    landimg2.style.left = "-100%"
+    landimg1.style.left = "-200%"
+    landimg3.style.left = "0%"
+})
+
+function all() {
+    setTimeout(imagenum1, 14000)
+    setTimeout(imagenum2, 4000)
+    setTimeout(imagenum3, 9000)
+}
+all();
+setInterval(all, 15000)
+
+let about_Down = document.getElementById("about_Down")
+let about_Up = document.getElementById("about_Up")
+let hoverOnAbout = document.getElementById("hoverOnAbout")
+about_Down.addEventListener("click", function() {
+    hoverOnAbout.style.display = "block"
+    about_Down.style.display = "none"
+    about_Up.style.display = "block"
+    setTimeout(function() {
+        hoverOnAbout.style.opacity = "1"
+    }, 50)
+
+})
+about_Up.addEventListener("click", function() {
+    hoverOnAbout.style.opacity = "0"
+
+    about_Down.style.display = "block"
+    about_Up.style.display = "none"
+    setTimeout(function() {
+        hoverOnAbout.style.display = "none"
+    }, 200)
+})
+
+// abouthover.addEventListener("mouseover", function() {
+//     hoverOnAbout.style.display = "block"
+// })
+// hoverOnAbout.addEventListener("mouseover", function() {
+//     hoverOnAbout.style.display = "block"
+// })
+// hoverOnAbout.addEventListener("mouseleave", function() {
+//     hoverOnAbout.style.display = "none"
+// })
