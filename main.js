@@ -257,3 +257,222 @@ about_Up.addEventListener("click", function() {
 // hoverOnAbout.addEventListener("mouseleave", function() {
 //     hoverOnAbout.style.display = "none"
 // })
+
+// start video 
+let blank = document.querySelector(".blank")
+let intabehClick = document.getElementById("intabehClick")
+let jimmyClick = document.getElementById("jimmyClick")
+let mnMedanClick = document.getElementById("mnMedanClick")
+let maanaClick = document.getElementById("maanaClick")
+let feen_flosyClick = document.getElementById("feen_flosyClick")
+let abbodyBadCLick = document.getElementById("abbodyBadCLick")
+let awsakhClick = document.getElementById("awsakhClick")
+let anaAoltClick = document.getElementById("anaAoltClick")
+let yalahwayCLick = document.getElementById("yalahwayCLick")
+
+let intabehVideo = document.getElementById("intabehVideo")
+let jimmyVideo = document.getElementById("jimmyVideo")
+let mnMedanVideo = document.getElementById("mnMedanVideo")
+let maanaVideo = document.getElementById("maanaVideo")
+let feen_flosyVideo = document.getElementById("feen_flosyVideo")
+let abbodyBadVideo = document.getElementById("abbodyBadVideo")
+let awsakhVideo = document.getElementById("awsakhVideo")
+let anaAoltVideo = document.getElementById("anaAoltVideo")
+let yalahwayVideo = document.getElementById("yalahwayVideo")
+
+
+yalahwayCLick.addEventListener("click", function() {
+    jimmyVideo.pause()
+    intabehVideo.pause()
+    mnMedanVideo.pause()
+    maanaVideo.pause()
+    feen_flosyVideo.pause()
+    abbodyBadVideo.pause()
+    anaAoltVideo.pause()
+    awsakhVideo.pause()
+
+    blank.style.display = "none"
+    yalahwayVideo.style.display = "block"
+    intabehVideo.style.display = "none"
+    jimmyVideo.style.display = "none"
+    mnMedanVideo.style.display = "none"
+    maanaVideo.style.display = "none"
+    feen_flosyVideo.style.display = "none"
+    abbodyBadVideo.style.display = "none"
+    anaAoltVideo.style.display = "none"
+    awsakhVideo.style.display = "none"
+    console.log("yalahwayCLick")
+})
+
+
+intabehClick.addEventListener("click", function() {
+    jimmyVideo.pause()
+    yalahwayVideo.pause()
+    mnMedanVideo.pause()
+    maanaVideo.pause()
+    feen_flosyVideo.pause()
+    abbodyBadVideo.pause()
+    anaAoltVideo.pause()
+    awsakhVideo.pause()
+
+    blank.style.display = "none"
+    yalahwayVideo.style.display = "none"
+    intabehVideo.style.display = "block"
+    jimmyVideo.style.display = "none"
+    mnMedanVideo.style.display = "none"
+    maanaVideo.style.display = "none"
+    feen_flosyVideo.style.display = "none"
+    abbodyBadVideo.style.display = "none"
+    anaAoltVideo.style.display = "none"
+    awsakhVideo.style.display = "none"
+
+    console.log("intabehVideo")
+})
+jimmyClick.addEventListener("click", function() {
+    intabehVideo.pause()
+    yalahwayVideo.pause()
+    mnMedanVideo.pause()
+    maanaVideo.pause()
+    feen_flosyVideo.pause()
+    abbodyBadVideo.pause()
+    anaAoltVideo.pause()
+    awsakhVideo.pause()
+
+    blank.style.display = "none"
+    yalahwayVideo.style.display = "none"
+    intabehVideo.style.display = "none"
+    jimmyVideo.style.display = "block"
+    mnMedanVideo.style.display = "none"
+    maanaVideo.style.display = "none"
+    feen_flosyVideo.style.display = "none"
+    abbodyBadVideo.style.display = "none"
+    anaAoltVideo.style.display = "none"
+    awsakhVideo.style.display = "none"
+    console.log("jimmyVideo")
+})
+mnMedanClick.addEventListener("click", function() {
+    jimmyVideo.pause()
+    yalahwayVideo.pause()
+    intabehVideo.pause()
+    maanaVideo.pause()
+    feen_flosyVideo.pause()
+    abbodyBadVideo.pause()
+    anaAoltVideo.pause()
+    awsakhVideo.pause()
+
+    blank.style.display = "none"
+    yalahwayVideo.style.display = "none"
+    intabehVideo.style.display = "none"
+    jimmyVideo.style.display = "none"
+    mnMedanVideo.style.display = "block"
+    maanaVideo.style.display = "none"
+    feen_flosyVideo.style.display = "none"
+    abbodyBadVideo.style.display = "none"
+    anaAoltVideo.style.display = "none"
+    awsakhVideo.style.display = "none"
+})
+maanaClick.addEventListener("click", function() {
+    jimmyVideo.pause()
+    yalahwayVideo.pause()
+    mnMedanVideo.pause()
+    intabehVideo.pause()
+    feen_flosyVideo.pause()
+    abbodyBadVideo.pause()
+    anaAoltVideo.pause()
+    awsakhVideo.pause()
+
+    blank.style.display = "none"
+    yalahwayVideo.style.display = "none"
+
+    intabehVideo.style.display = "none"
+    jimmyVideo.style.display = "none"
+    mnMedanVideo.style.display = "none"
+    maanaVideo.style.display = "block"
+    feen_flosyVideo.style.display = "none"
+    abbodyBadVideo.style.display = "none"
+    anaAoltVideo.style.display = "none"
+    awsakhVideo.style.display = "none"
+})
+feen_flosyClick.addEventListener("click", function() {
+    jimmyVideo.pause()
+    yalahwayVideo.pause()
+    mnMedanVideo.pause()
+    maanaVideo.pause()
+    intabehVideo.pause()
+    abbodyBadVideo.pause()
+    anaAoltVideo.pause()
+    awsakhVideo.pause()
+    blank.style.display = "none"
+    yalahwayVideo.style.display = "none"
+
+    intabehVideo.style.display = "none"
+    jimmyVideo.style.display = "none"
+    mnMedanVideo.style.display = "none"
+    maanaVideo.style.display = "none"
+    feen_flosyVideo.style.display = "block"
+    abbodyBadVideo.style.display = "none"
+    anaAoltVideo.style.display = "none"
+    awsakhVideo.style.display = "none"
+})
+abbodyBadCLick.addEventListener("click", function() {
+    jimmyVideo.pause()
+    yalahwayVideo.pause()
+    mnMedanVideo.pause()
+    maanaVideo.pause()
+    feen_flosyVideo.pause()
+    intabehVideo.pause()
+    anaAoltVideo.pause()
+    awsakhVideo.pause()
+    blank.style.display = "none"
+    yalahwayVideo.style.display = "none"
+
+    intabehVideo.style.display = "none"
+    jimmyVideo.style.display = "none"
+    mnMedanVideo.style.display = "none"
+    maanaVideo.style.display = "none"
+    feen_flosyVideo.style.display = "none"
+    abbodyBadVideo.style.display = "block"
+    anaAoltVideo.style.display = "none"
+    awsakhVideo.style.display = "none"
+})
+awsakhClick.addEventListener("click", function() {
+    jimmyVideo.pause()
+    yalahwayVideo.pause()
+    mnMedanVideo.pause()
+    maanaVideo.pause()
+    feen_flosyVideo.pause()
+    abbodyBadVideo.pause()
+    anaAoltVideo.pause()
+    intabehVideo.pause()
+    blank.style.display = "none"
+    yalahwayVideo.style.display = "none"
+
+    intabehVideo.style.display = "none"
+    jimmyVideo.style.display = "none"
+    mnMedanVideo.style.display = "none"
+    maanaVideo.style.display = "none"
+    feen_flosyVideo.style.display = "none"
+    abbodyBadVideo.style.display = "none"
+    anaAoltVideo.style.display = "none"
+    awsakhVideo.style.display = "block"
+})
+anaAoltClick.addEventListener("click", function() {
+    jimmyVideo.pause()
+    yalahwayVideo.pause()
+    mnMedanVideo.pause()
+    maanaVideo.pause()
+    feen_flosyVideo.pause()
+    abbodyBadVideo.pause()
+    intabehVideo.pause()
+    awsakhVideo.pause()
+    blank.style.display = "none"
+    yalahwayVideo.style.display = "none"
+    intabehVideo.style.display = "none"
+    jimmyVideo.style.display = "none"
+    mnMedanVideo.style.display = "none"
+    maanaVideo.style.display = "none"
+    feen_flosyVideo.style.display = "none"
+    abbodyBadVideo.style.display = "none"
+    anaAoltVideo.style.display = "block"
+    awsakhVideo.style.display = "none"
+})
