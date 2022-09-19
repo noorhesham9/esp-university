@@ -672,6 +672,10 @@ section .header h3 span::before {
 }
 .programs .allP .top .image img {
   max-width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 .programs .allP .top .image:hover img {
   -webkit-filter: grayscale(1);
@@ -778,6 +782,10 @@ section .header h3 span::before {
 }
 .programs .allP .bottom .image img {
   max-width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
 }
 .programs .allP .bottom .image:hover img {
   -webkit-filter: grayscale(1);

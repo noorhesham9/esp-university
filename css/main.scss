@@ -590,9 +590,6 @@
         }
     }
     
-    // .y {
-    //     transform: translateY(-170px);
-    // }
     section {
         .header {
             text-align: center;
@@ -641,6 +638,8 @@
                     cursor: pointer;
                     img {
                         max-width: 100%;
+                        transition: 0.3s;
+                        filter: grayscale(0);
                     }
                     &:hover {
                         img {
@@ -739,6 +738,8 @@
                     position: relative;
                     img {
                         max-width: 100%;
+                        transition: 0.3s;
+                        filter: grayscale(0);
                     }
                     &:hover {
                         img {
