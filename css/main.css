@@ -17,6 +17,7 @@ body {
   font-family: "Open Sans", sans-serif;
   position: relative;
   background-color: #f2f2f2;
+  z-index: -5;
 }
 
 ul {
@@ -553,6 +554,11 @@ header nav .links .follow-team a {
   height: 100%;
 }
 
+.LibraryAndStudents {
+  -webkit-transform: translatey(-170px);
+          transform: translatey(-170px);
+}
+
 .all {
   background-color: white;
   display: -ms-grid;
@@ -607,11 +613,6 @@ header nav .links .follow-team a {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
 }
-.y {
-  -webkit-transform: translateY(-170px);
-          transform: translateY(-170px);
-}
-
 section .header {
   text-align: center;
   background-color: white;
@@ -636,6 +637,10 @@ section .header h3 span::before {
   margin-left: -54px;
 }
 
+.programs {
+  -webkit-transform: translateY(-150px);
+          transform: translateY(-150px);
+}
 .programs .allP {
   margin-bottom: 36px;
 }
@@ -860,6 +865,11 @@ section .header h3 span::before {
   }
 }
 
+.video {
+  -webkit-transform: translatey(-120px);
+          transform: translatey(-120px);
+}
+
 .videos .holder {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -879,7 +889,7 @@ section .header h3 span::before {
   }
 }
 .videos .holder .list {
-  min-width: 300px;
+  min-width: 260px;
   background-color: white;
 }
 
@@ -963,10 +973,252 @@ section .header h3 span::before {
 }
 
 /* End Videos */
+.newAndEvents {
+  -webkit-transform: translateY(-100px);
+          transform: translateY(-100px);
+}
+
+.allNew {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 25px;
+}
+.allNew .one h4 {
+  margin: 0;
+  padding: 11px 0 9px;
+  text-align: center;
+  font-size: 18px;
+  font: 20px/40px "Autour One", cursive;
+  text-transform: uppercase;
+  color: #444;
+}
+.allNew .one p {
+  padding: 13px 18px 20px;
+  text-align: center;
+  font-family: open sans, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #9d9d9d;
+}
+.allNew .one .image {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  color: #78c7ee;
+}
+.allNew .one .image img {
+  max-width: 100%;
+}
+.allNew .one .moreInfo {
+  padding: 0 25px;
+  color: #78c7ee;
+  text-shadow: none;
+  border: none;
+  border-bottom: 2px solid #78c7ee;
+  border-top: 2px solid #78c7ee;
+  display: table;
+  font: 14px/46px "Autour One", cursive;
+  margin: 0 auto;
+  min-width: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.allNew .one .moreInfo:hover {
+  border-color: #ff8f21;
+  color: #ff8f21;
+}
+.allNew .two h4 {
+  margin: 0;
+  padding: 11px 0 9px;
+  text-align: center;
+  font-size: 18px;
+  font: 20px/40px "Autour One", cursive;
+  text-transform: uppercase;
+  color: #444;
+}
+.allNew .two p {
+  padding: 13px 18px 20px;
+  text-align: center;
+  font-family: open sans, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #9d9d9d;
+}
+.allNew .two .image {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  color: #78c7ee;
+}
+.allNew .two .image img {
+  max-width: 100%;
+}
+.allNew .two .moreInfo {
+  padding: 0 25px;
+  color: #78c7ee;
+  text-shadow: none;
+  border: none;
+  border-bottom: 2px solid #78c7ee;
+  border-top: 2px solid #78c7ee;
+  display: table;
+  font: 14px/46px "Autour One", cursive;
+  margin: 0 auto;
+  min-width: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.allNew .two .moreInfo:hover {
+  border-color: #ff8f21;
+  color: #ff8f21;
+}
+.allNew .three h4 {
+  margin: 0;
+  padding: 11px 0 9px;
+  text-align: center;
+  font-size: 18px;
+  font: 20px/40px "Autour One", cursive;
+  text-transform: uppercase;
+  color: #444;
+}
+.allNew .three p {
+  padding: 13px 18px 20px;
+  text-align: center;
+  font-family: open sans, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #9d9d9d;
+}
+.allNew .three .image {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  color: #78c7ee;
+}
+.allNew .three .image img {
+  max-width: 100%;
+}
+.allNew .three .moreInfo {
+  padding: 0 25px;
+  color: #78c7ee;
+  text-shadow: none;
+  border: none;
+  border-bottom: 2px solid #78c7ee;
+  border-top: 2px solid #78c7ee;
+  display: table;
+  font: 14px/46px "Autour One", cursive;
+  margin: 0 auto;
+  min-width: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.allNew .three .moreInfo:hover {
+  border-color: #ff8f21;
+  color: #ff8f21;
+}
+.allNew .four h4 {
+  margin: 0;
+  padding: 11px 0 9px;
+  text-align: center;
+  font-size: 18px;
+  font: 20px/40px "Autour One", cursive;
+  text-transform: uppercase;
+  color: #444;
+}
+.allNew .four p {
+  padding: 13px 18px 20px;
+  text-align: center;
+  font-family: open sans, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color: #9d9d9d;
+}
+.allNew .four .image {
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  color: #78c7ee;
+}
+.allNew .four .image img {
+  max-width: 100%;
+}
+.allNew .four .moreInfo {
+  padding: 0 25px;
+  color: #78c7ee;
+  text-shadow: none;
+  border: none;
+  border-bottom: 2px solid #78c7ee;
+  border-top: 2px solid #78c7ee;
+  display: table;
+  font: 14px/46px "Autour One", cursive;
+  margin: 0 auto;
+  min-width: 60px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.allNew .four .moreInfo:hover {
+  border-color: #ff8f21;
+  color: #ff8f21;
+}
 footer {
   position: absolute;
   background-color: black;
   width: 100%;
-  height: 100px;
+  height: 200px;
+  z-index: -2;
   bottom: 0px;
+}
+footer .text {
+  position: absolute;
+  bottom: 40px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}
+footer .text span {
+  font-family: open sans, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+footer .text .year::after {
+  content: "|";
+  padding: 0 4px;
+}
+footer .text .privacy_policy {
+  color: white;
+  text-decoration: none !important;
+  font-family: open sans, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+footer .text .privacy_policy:before {
+  content: "";
+  width: 0px;
+  height: 1px;
+  background-color: #ff8f21;
+  position: absolute;
+  bottom: -5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+footer .text .privacy_policy:hover {
+  color: #ff8f21;
+}
+footer .text .privacy_policy:hover::before {
+  width: 90.3px;
 }
