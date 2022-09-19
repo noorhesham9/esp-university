@@ -950,8 +950,36 @@
                 display: inline-block;
                 max-width: 100%;
                 color: #78c7ee;
+                transition: 0.3s;
                 img {
                     max-width: 100%;
+                    transition: 0.3s;
+                    filter: grayscale(0);
+                }
+                &:hover {
+                    img {
+                        filter: grayscale(1);
+                    }
+                    &:before {
+                        opacity: 1;
+                    }
+                }
+                &:before {
+                    content: '\f14d';
+                    font-family: FontAwesome;
+                    position: absolute;
+                    // text-align: center;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    -webkit-transition: all .5s ease;
+                    -moz-transition: all .5s ease;
+                    -o-transition: all .5s ease;
+                    transition: all .5s ease;
+                    z-index: 3;
+                    font-size: 30px;
+                    opacity: 0;
+                    color: #78c7ee;
                 }
             }
             .moreInfo {
@@ -1002,6 +1030,33 @@
                 color: #78c7ee;
                 img {
                     max-width: 100%;
+                    transition: 0.3s;
+                    filter: grayscale(0);
+                }
+                &:hover {
+                    img {
+                        filter: grayscale(1);
+                    }
+                    &:before {
+                        opacity: 1;
+                    }
+                }
+                &:before {
+                    content: '\f14d';
+                    font-family: FontAwesome;
+                    position: absolute;
+                    // text-align: center;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    -webkit-transition: all .5s ease;
+                    -moz-transition: all .5s ease;
+                    -o-transition: all .5s ease;
+                    transition: all .5s ease;
+                    z-index: 3;
+                    font-size: 30px;
+                    opacity: 0;
+                    color: #78c7ee;
                 }
             }
             .moreInfo {
@@ -1052,6 +1107,33 @@
                 color: #78c7ee;
                 img {
                     max-width: 100%;
+                    transition: 0.3s;
+                    filter: grayscale(0);
+                }
+                &:hover {
+                    img {
+                        filter: grayscale(1);
+                    }
+                    &:before {
+                        opacity: 1;
+                    }
+                }
+                &:before {
+                    content: '\f14d';
+                    font-family: FontAwesome;
+                    position: absolute;
+                    // text-align: center;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    -webkit-transition: all .5s ease;
+                    -moz-transition: all .5s ease;
+                    -o-transition: all .5s ease;
+                    transition: all .5s ease;
+                    z-index: 3;
+                    font-size: 30px;
+                    opacity: 0;
+                    color: #78c7ee;
                 }
             }
             .moreInfo {
@@ -1102,6 +1184,33 @@
                 color: #78c7ee;
                 img {
                     max-width: 100%;
+                    transition: 0.3s;
+                    filter: grayscale(0);
+                }
+                &:hover {
+                    img {
+                        filter: grayscale(1);
+                    }
+                    &:before {
+                        opacity: 1;
+                    }
+                }
+                &:before {
+                    content: '\f14d';
+                    font-family: FontAwesome;
+                    position: absolute;
+                    // text-align: center;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    -webkit-transition: all .5s ease;
+                    -moz-transition: all .5s ease;
+                    -o-transition: all .5s ease;
+                    transition: all .5s ease;
+                    z-index: 3;
+                    font-size: 30px;
+                    opacity: 0;
+                    color: #78c7ee;
                 }
             }
             .moreInfo {

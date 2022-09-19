@@ -1006,9 +1006,37 @@ section .header h3 span::before {
   display: inline-block;
   max-width: 100%;
   color: #78c7ee;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .allNew .one .image img {
   max-width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+.allNew .one .image:hover img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+.allNew .one .image:hover:before {
+  opacity: 1;
+}
+.allNew .one .image:before {
+  content: "\f14d";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 3;
+  font-size: 30px;
+  opacity: 0;
+  color: #78c7ee;
 }
 .allNew .one .moreInfo {
   padding: 0 25px;
@@ -1056,6 +1084,32 @@ section .header h3 span::before {
 }
 .allNew .two .image img {
   max-width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+.allNew .two .image:hover img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+.allNew .two .image:hover:before {
+  opacity: 1;
+}
+.allNew .two .image:before {
+  content: "\f14d";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 3;
+  font-size: 30px;
+  opacity: 0;
+  color: #78c7ee;
 }
 .allNew .two .moreInfo {
   padding: 0 25px;
@@ -1103,6 +1157,32 @@ section .header h3 span::before {
 }
 .allNew .three .image img {
   max-width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+.allNew .three .image:hover img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+.allNew .three .image:hover:before {
+  opacity: 1;
+}
+.allNew .three .image:before {
+  content: "\f14d";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 3;
+  font-size: 30px;
+  opacity: 0;
+  color: #78c7ee;
 }
 .allNew .three .moreInfo {
   padding: 0 25px;
@@ -1150,6 +1230,32 @@ section .header h3 span::before {
 }
 .allNew .four .image img {
   max-width: 100%;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+.allNew .four .image:hover img {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+.allNew .four .image:hover:before {
+  opacity: 1;
+}
+.allNew .four .image:before {
+  content: "\f14d";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  left: 50%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  z-index: 3;
+  font-size: 30px;
+  opacity: 0;
+  color: #78c7ee;
 }
 .allNew .four .moreInfo {
   padding: 0 25px;
