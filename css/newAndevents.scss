@@ -638,188 +638,171 @@ footer .text .privacy_policy:hover::before {
     width: 90.3px;
 }
 
-.flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+.news {
+    padding-top: 21px;
     background-color: white;
-}
-
-.flex .left {
-    width: calc(100% - 364px);
-}
-
-.flex .left p {
-    padding-left: 25px;
-    padding-right: 25px;
-    text-align: center;
-}
-
-.flex .right {
-    width: 364px;
-}
-
-.flex .right form {
-    margin: 0 0 18px;
-}
-
-.flex .right form .allLogin {
-    padding: 0 20px 36px;
-}
-
-.flex .right form .allLogin label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 13px;
-    font-weight: 400;
-    line-height: 18px;
-    cursor: pointer;
-}
-
-.flex .right form .allLogin input {
-    width: calc(100% - 50px);
-    height: 24px;
-    color: #9d9d9d;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    display: inline-block;
-    padding: 4px 6px;
-    margin-bottom: 9px;
-    font-size: 13px;
-    line-height: 18px;
-    color: #555;
-    border-radius: 3px;
-    vertical-align: middle;
-}
-
-.flex .right form .allLogin .check {
-    position: relative;
-    margin-left: 21px;
-}
-
-.flex .right form .allLogin .check input {
-    position: absolute;
-    height: 15px;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: -18.5px;
-    width: 14px;
-}
-
-.flex .right form .allLogin .logIn {
-    margin: 9px 0;
-}
-
-.flex .right form .allLogin .logIn button {
-    background: #78c7ee;
-    color: #fff;
-    text-shadow: none;
-    border: none;
-    padding: 4px 14px;
-    font-size: 13px;
-    line-height: 18px;
-    outline: none !important;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.flex .right form .allLogin .logIn button:hover {
-    background: #78a0ee;
-    color: #fff;
-}
-
-.flex .right form .allLogin .createAndForgot {
-    margin-left: 0;
-    list-style: none;
-    padding: 0;
-    margin: 0 0 9px 0px;
-}
-
-.flex .right form .allLogin .createAndForgot li {
-    line-height: 18px;
-}
-
-.flex .right form .allLogin .createAndForgot li a {
-    color: #78c7ee;
-    text-decoration: none;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.flex .right form .allLogin .createAndForgot li a:hover {
-    color: #ff8f22;
-}
-
-.flex .right .allSearch {
-    padding: 0 20px 36px;
-}
-
-.flex .right .allSearch input {
-    width: calc(100% - 50px);
-    height: 24px;
-    color: #9d9d9d;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    display: inline-block;
-    padding: 4px 6px;
-    margin-bottom: 9px;
-    font-size: 13px;
-    line-height: 18px;
-    color: #555;
-    border-radius: 3px;
-    vertical-align: middle;
-}
-
-.flex .right .allSearch .btn {
-    background: #78c7ee;
-    color: #fff;
-    text-shadow: none;
-    border: none;
-    padding: 4px 14px;
-    font-size: 13px;
-    line-height: 18px;
-    outline: none !important;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-}
-
-.flex .right .allSearch .btn:hover {
-    background: #78a0ee;
-    color: #fff;
-}
-
-@media (min-width: 768px) and (max-width: 979px) {
-    .flex .right {
-        width: 244px;
+    .AENEANNEC {
+        display: flex;
+        background-color: #e0e0e0;
+        margin-bottom: 25px;
+        aspect-ratio: 3.452;
+        >a {
+            position: relative;
+            width: 50%;
+            &:hover {
+                img {
+                    filter: grayscale(1);
+                }
+                &::before {
+                    opacity: 1;
+                }
+            }
+            &::before {
+                content: '\f14d';
+                font-family: FontAwesome;
+                position: absolute;
+                left: 0;
+                width: 100%;
+                height: 0;
+                text-align: center;
+                top: 50%;
+                transition: all .5s ease;
+                z-index: 3;
+                font-size: 40px;
+                opacity: 1;
+                color: #78c7ee;
+                transition: 0.3s;
+                opacity: 0;
+            }
+        }
+        img {
+            width: 100%;
+            filter: grayscale(0);
+            transition: 0.3s;
+        }
+        .text {
+            width: 50%;
+            height: fit-content;
+            margin: auto 0;
+            h4 {
+                padding-top: 20px;
+                font-size: 18px;
+                font: 20px/40px 'Autour One', cursive;
+                margin-bottom: 13px;
+                text-transform: uppercase;
+                color: #444;
+                text-align: center;
+            }
+            .icons {
+                width: 80%;
+                display: -ms-grid;
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+                margin: 0 auto;
+                >div {
+                    i {
+                        color: #78c7ee;
+                    }
+                    margin: 0 auto 18px;
+                    text-align: center;
+                    display: flex;
+                    gap: 5px;
+                    align-items: center;
+                    a {
+                        color: #78c7ee;
+                        line-height: 18px;
+                        margin: 0 auto 18px;
+                        text-align: center;
+                        transition: 0.3s;
+                        &:hover {
+                            color: #ff8f21;
+                        }
+                    }
+                }
+            }
+        }
     }
-    .flex .left {
-        width: calc(100% - 244px);
+    @media (max-width:767px) {
+        .AENEANNEC {
+            flex-direction: column;
+            a {
+                width: 100%;
+            }
+            .text {
+                width: 100%;
+                .icons {
+                    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                }
+            }
+        }
+    }
+    .lacinia {
+        padding: 13px 18px 20px;
+        text-align: center;
+        h5 {
+            color: #444;
+            font: 20px/40px 'Autour One', cursive;
+            text-align: center;
+            text-transform: uppercase;
+            padding-bottom: 18px;
+        }
+        p {
+            margin: 0;
+            padding-bottom: 18px;
+        }
+        a {
+            background: 0 0;
+            color: #78c7ee;
+            text-shadow: none;
+            border: none;
+            border-bottom: 2px solid #78c7ee;
+            border-top: 2px solid #78c7ee;
+            display: table;
+            font: 14px/46px 'Autour One', cursive;
+            margin: 0 auto;
+            padding: 0 14px;
+            min-width: 60px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.3s;
+            &:hover {
+                border-color: #ff8f21;
+                color: #ff8f21;
+            }
+        }
     }
 }
 
-@media (max-width: 767px) {
-    .flex .right {
-        width: 100%;
-    }
-    .flex .left {
-        width: 100%;
-    }
-}
-
-.flex p {
-    margin: 0;
-    padding-bottom: 18px;
-}
-
-@media (max-width: 767px) {
-    .flex {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-    }
-    .flex .right form .allLogin {
-        padding: 0 20px 0px;
+.bottomNewAndEvents {
+    height: auto;
+    margin-top: 12px;
+    padding: 0 0 50px;
+    display: flex;
+    justify-content: center;
+    ul {
+        display: inline-block;
+        margin: 0 auto;
+        li {
+            display: inline-block;
+            margin: 0 5px;
+            line-height: 18px;
+            span {
+                background: #78c7ee;
+                color: #fff;
+                text-shadow: none;
+                box-shadow: none;
+                padding: 7px 14px;
+            }
+            a {
+                background: #9d9d9d;
+                color: #fff;
+                text-shadow: none;
+                padding: 7px 14px;
+                transition: 0.3s;
+                &:hover {
+                    background: #78c7ee;
+                }
+            }
+        }
     }
 }
