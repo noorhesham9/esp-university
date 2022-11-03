@@ -1,204 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>main-page</title>
     <!-- google fonts  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <!-- render all elements normally css file  -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
     <!-- font awesome css file  -->
-    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/all.min.css" />
     <!-- main template css file  -->
-    <link rel="stylesheet" href="css/main.css">
-</head>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="container containH">
-            <div class="logo"><img src="image/logo.webp" alt="">
-            </div>
-            <ul class="links">
-                <li> <a href="index.html">HOME</a> </li>
-                <li id="abouthover" class="abouthover">
-                    <a href="about.html">ABOUT</a>
-                    <i id="about_Down" class="fa-solid fa-angle-down"></i>
-                    <i id="about_Up" style="display:none" class="fa-solid fa-angle-up"></i>
-                    <ul id="hoverOnAbout" class="hoverOnAbout">
-                        <li class="first-hover"><a href="history.html">History</a> </li>
+      <div class="container containH">
+        <div class="logo"><img src="image/logo.webp" alt="" /></div>
+        <ul class="links">
+          <li><a href="index.html">HOME</a></li>
+          <li id="abouthover" class="abouthover">
+            <a href="about.html">ABOUT</a>
+            <i id="about_Down" class="fa-solid fa-angle-down"></i>
+            <i
+              id="about_Up"
+              style="display: none"
+              class="fa-solid fa-angle-up"
+            ></i>
+            <ul id="hoverOnAbout" class="hoverOnAbout">
+              <li class="first-hover"><a href="history.html">History</a></li>
 
-                        <li class="TestiIN"><a href="team.html">Team</a>
-                            <a class="testi" href="#">Testimonials</a>
-                        </li>
+              <li class="TestiIN">
+                <a href="team.html">Team</a>
+                <a class="testi" href="#">Testimonials</a>
+              </li>
 
-                        <li><a href="FAQs.html">FAQs</a> </li>
+              <li><a href="FAQs.html">FAQs</a></li>
 
-                        <li><a href="templateSetting.html"> Template settings</a></li>
+              <li><a href="templateSetting.html"> Template settings</a></li>
 
-                        <li class="last"><a href="#">Forum</a> </li>
-                    </ul>
-                </li>
-
-                <li><a href="#"> PROGRAMS</a></li>
-                <li><a href="newAndEvents.html">NEWS & EVENTS</a> </li>
-                <li><a href="contacts.html">CONTACTS</a> </li>
+              <li class="last"><a href="#">Forum</a></li>
             </ul>
-            <div class="burgericon">
-                <div class="burger-icon-to-x" id="burger-to-x">
-                    <span class="num1"></span>
-                    <span class="num2"></span>
-                    <span class="num3"></span>
-                </div>
-                <div class="x-icon-to-burger" id="x-to-burger">
-                    <span class="num1"></span>
-                    <span class="num2"></span>
-                    <span class="num3"></span>
-                </div>
-            </div>
+          </li>
+
+          <li><a href="#"> PROGRAMS</a></li>
+          <li><a href="newAndEvents.html">NEWS & EVENTS</a></li>
+          <li><a href="contacts.html">CONTACTS</a></li>
+        </ul>
+        <div class="burgericon">
+          <div class="burger-icon-to-x" id="burger-to-x">
+            <span class="num1"></span>
+            <span class="num2"></span>
+            <span class="num3"></span>
+          </div>
+          <div class="x-icon-to-burger" id="x-to-burger">
+            <span class="num1"></span>
+            <span class="num2"></span>
+            <span class="num3"></span>
+          </div>
         </div>
-        <nav id="navforMopile">
-            <div class="search">
-                <input type="text" placeholder="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
-            <ul class="links">
-                <li> <a href="index.html">HOME</a> </li>
-                <li class="about">
-                    <a href="about.html">ABOUT</a>
-                    <i id="aboutDown" class="fa-regular fa-circle-down"></i>
-                    <i id="aboutUp" class="fa-regular fa-circle-up"></i>
-                </li>
+      </div>
+      <nav id="navforMopile">
+        <div class="search">
+          <input type="text" placeholder="search" />
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <ul class="links">
+          <li><a href="index.html">HOME</a></li>
+          <li class="about">
+            <a href="about.html">ABOUT</a>
+            <i id="aboutDown" class="fa-regular fa-circle-down"></i>
+            <i id="aboutUp" class="fa-regular fa-circle-up"></i>
+          </li>
 
-                <!-- follow about -->
-                <li id="about1" class="follow-about"><a href="history.html">History</a> </li>
-                <li id="about2" class="follow-about team"><a href="team.html">Team</a>
-                    <i id="teamDown" class="fa-regular fa-circle-down"></i>
-                    <i id="teamUp" class="fa-regular fa-circle-up"></i></li>
-                <li id="followTeam" class="follow-team">
-                    <a href="#">Testimonials</a>
-                </li>
-                <li id="about4" class="follow-about"><a href="FAQs.html">FAQs</a> </li>
-                <li id="about5" class="follow-about"><a href="templateSetting.html"> Template settings</a></li>
-                <li id="about6" class="follow-about"><a href="#">Forum</a> </li>
-                <!-- follow about -->
-                <li><a href="#"> PROGRAMS</a></li>
-                <li><a href="newAndEvents.html">NEWS & EVENTS</a> </li>
-                <li><a href="contacts.html">CONTACTS</a> </li>
-            </ul>
-        </nav>
+          <!-- follow about -->
+          <li id="about1" class="follow-about">
+            <a href="history.html">History</a>
+          </li>
+          <li id="about2" class="follow-about team">
+            <a href="team.html">Team</a>
+            <i id="teamDown" class="fa-regular fa-circle-down"></i>
+            <i id="teamUp" class="fa-regular fa-circle-up"></i>
+          </li>
+          <li id="followTeam" class="follow-team">
+            <a href="#">Testimonials</a>
+          </li>
+          <li id="about4" class="follow-about"><a href="FAQs.html">FAQs</a></li>
+          <li id="about5" class="follow-about">
+            <a href="templateSetting.html"> Template settings</a>
+          </li>
+          <li id="about6" class="follow-about"><a href="#">Forum</a></li>
+          <!-- follow about -->
+          <li><a href="#"> PROGRAMS</a></li>
+          <li><a href="newAndEvents.html">NEWS & EVENTS</a></li>
+          <li><a href="contacts.html">CONTACTS</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section id="imagesLanding" class="imagesLanding">
-        <div class="landing">
-            <div class="images">
-                <div class="image1">
-                    <img src="image/slide-1.jpg" alt="">
-                </div>
-                <div class="image2">
-                    <img src="image/slide-2.jpg" alt="">
-                </div>
-                <div class="image3">
-                    <img src="image/slide-3.jpg" alt="">
-                </div>
-            </div>
-            <div class="dots">
-                <span id="dot1" class="active"></span>
-                <span id="dot2"></span>
-                <span id="dot3"></span>
-            </div>
+      <div class="landing">
+        <div class="images">
+          <div class="image1">
+            <img src="image/slide-1.jpg" alt="" />
+          </div>
+          <div class="image2">
+            <img src="image/slide-2.jpg" alt="" />
+          </div>
+          <div class="image3">
+            <img src="image/slide-3.jpg" alt="" />
+          </div>
         </div>
+        <div class="dots">
+          <span id="dot1" class="active"></span>
+          <span id="dot2"></span>
+          <span id="dot3"></span>
+        </div>
+      </div>
     </section>
     <!-- // strating section labrary students Schedule -->
     <section class="LibraryAndStudents y">
-        <div class="container">
-            <div class="all">
-                <div class="library">
-                    <a href="library.html">
-                        <div class="image">
-                            <img src="image/icon1.webp" alt="">
-                        </div>
-                        <h4>
-                            library
-                        </h4>
-                        <p>
-                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
-                        </p>
-                    </a>
-
-                </div>
-                <div class="students">
-                    <a href="student.html">
-                        <div class="image">
-                            <img src="image/icon2.webp" alt="">
-                        </div>
-                        <h4> Students</h4>
-                        <p>
-                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
-                        </p>
-                    </a>
-                </div>
-                <div class="schedule">
-                    <a href="Schedule.html">
-                        <div class="image"><img src="image/icon3.webp" alt=""></div>
-                        <h4> Schedule</h4>
-                        <p>
-                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis
-                        </p>
-                    </a>
-
-                </div>
-            </div>
+      <div class="container">
+        <div class="all">
+          <div class="library">
+            <a href="library.html">
+              <div class="image">
+                <img src="image/icon1.webp" alt="" />
+              </div>
+              <h4>library</h4>
+              <p>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                consequat. Duis
+              </p>
+            </a>
+          </div>
+          <div class="students">
+            <a href="student.html">
+              <div class="image">
+                <img src="image/icon2.webp" alt="" />
+              </div>
+              <h4>Students</h4>
+              <p>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                consequat. Duis
+              </p>
+            </a>
+          </div>
+          <div class="schedule">
+            <a href="Schedule.html">
+              <div class="image"><img src="image/icon3.webp" alt="" /></div>
+              <h4>Schedule</h4>
+              <p>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                consequat. Duis
+              </p>
+            </a>
+          </div>
         </div>
+      </div>
     </section>
     <section class="y programs">
-        <div class="container">
-            <div class="header">
-                <h3>
-                    <span>Programs</span>
-                </h3>
-            </div>
-            <div class="allP">
-                <div class="top">
-                    <div class="image">
-                        <a href="WISI ENIM.html"> <img src="image/img1.jpg" alt=""></a>
-                    </div>
-                    <div class="textTop">
-                        <h4>
-                            UT WISI ENIM AD MINIM VENIA
-                        </h4>
-                        <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in olestie consequat, vel illum dolore eu feugiat nulla
-                            facilisis at vero odio dignissim qui blandit praesent luptatum zzril</p>
-                        <a href="WISI ENIM.html">
-                            <span>View</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <div class="textBottom">
-                        <h4>
-                            NAM LIBER TEMPOR CUM SOLUTA
-
-                        </h4>
-                        <p>Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in olestie consequat, vel illum dolore eu feugiat nulla facilisis
-                            at vero odio dignissim qui blandit praesent luptatum zzril</p>
-                        <a href="LIBER TEMPOR.html">
-                            <span>View</span>
-                        </a>
-                    </div>
-                    <div class="image">
-                        <a href="LIBER TEMPOR.html"> <img src="image/img2.jpg" alt=""></a>
-                    </div>
-
-                </div>
-            </div>
+      <div class="container">
+        <div class="header">
+          <h3>
+            <span>Programs</span>
+          </h3>
         </div>
+        <div class="allP">
+          <div class="top">
+            <div class="image">
+              <a href="WISI ENIM.html"> <img src="image/img1.jpg" alt="" /></a>
+            </div>
+            <div class="textTop">
+              <h4>UT WISI ENIM AD MINIM VENIA</h4>
+              <p>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                consequat. Duis autem vel eum iriure dolor in hendrerit in
+                olestie consequat, vel illum dolore eu feugiat nulla facilisis
+                at vero odio dignissim qui blandit praesent luptatum zzril
+              </p>
+              <a href="WISI ENIM.html">
+                <span>View</span>
+              </a>
+            </div>
+          </div>
+          <div class="bottom">
+            <div class="textBottom">
+              <h4>NAM LIBER TEMPOR CUM SOLUTA</h4>
+              <p>
+                Wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+                consequat. Duis autem vel eum iriure dolor in hendrerit in
+                olestie consequat, vel illum dolore eu feugiat nulla facilisis
+                at vero odio dignissim qui blandit praesent luptatum zzril
+              </p>
+              <a href="LIBER TEMPOR.html">
+                <span>View</span>
+              </a>
+            </div>
+            <div class="image">
+              <a href="LIBER TEMPOR.html">
+                <img src="image/img2.jpg" alt=""
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="y video">
+    <!-- <section class="y video">
         <div class="container">
             <div class="header">
                 <h3>
@@ -283,70 +303,77 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <section class="y newAndEvents">
-        <div class="container">
-            <div class="header">
-                <h3>
-                    <span>News & Events
-                    </span>
-                </h3>
-            </div>
-            <div class="allNew" style="background-color:white">
-                <div class="one">
-                    <h4>WEMPOR CUM SOLU</h4>
-                    <a class="image" href="Wempor cum.html">
-                        <img src="image/page1-img1.jpg" alt="">
-                    </a>
-                    <p>Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper</p>
-                    <a class="moreInfo" href="Wempor cum.html">
-                        <span>More Info</span>
-                    </a>
-                </div>
-                <div class="two">
-                    <h4>LOREM IPSUM DOLOR</h4>
-                    <a class="image" href="lorem Ipsm.html">
-                        <img src="image/page1-img2.jpg" alt="">
-                    </a>
-                    <p>Senim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit</p>
-                    <a class="moreInfo" href="lorem Ipsm.html">
-                        <span>More Info</span>
-                    </a>
-                </div>
-                <div class="three">
-                    <h4>EODEM MODO TYPI</h4>
-                    <a class="image" href="Eodem modo.html">
-                        <img src="image/page1-img3.jpg" alt="">
-                    </a>
-                    <p>Ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis</p>
-                    <a class="moreInfo" href="Eodem modo.html">
-                        <span>More Info</span>
-                    </a>
-                </div>
-                <div class="four">
-                    <h4>CLARITAS EST ETIAM</h4>
-                    <a class="image" href="Claritas est.html">
-                        <img src="image/page1-img4.jpg" alt="">
-                    </a>
-                    <p>Xeim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit</p>
-                    <a class="moreInfo" href="Claritas est.html">
-                        <span>More Info</span>
-                    </a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="header">
+          <h3>
+            <span>News & Events </span>
+          </h3>
         </div>
+        <div class="allNew" style="background-color: white">
+          <div class="one">
+            <h4>WEMPOR CUM SOLU</h4>
+            <a class="image" href="Wempor cum.html">
+              <img src="image/page1-img1.jpg" alt="" />
+            </a>
+            <p>
+              Wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+            </p>
+            <a class="moreInfo" href="Wempor cum.html">
+              <span>More Info</span>
+            </a>
+          </div>
+          <div class="two">
+            <h4>LOREM IPSUM DOLOR</h4>
+            <a class="image" href="lorem Ipsm.html">
+              <img src="image/page1-img2.jpg" alt="" />
+            </a>
+            <p>
+              Senim ad minim veniam, quis nostrud exerci tation ullamcorper
+              suscipit
+            </p>
+            <a class="moreInfo" href="lorem Ipsm.html">
+              <span>More Info</span>
+            </a>
+          </div>
+          <div class="three">
+            <h4>EODEM MODO TYPI</h4>
+            <a class="image" href="Eodem modo.html">
+              <img src="image/page1-img3.jpg" alt="" />
+            </a>
+            <p>
+              Ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+              lobortis
+            </p>
+            <a class="moreInfo" href="Eodem modo.html">
+              <span>More Info</span>
+            </a>
+          </div>
+          <div class="four">
+            <h4>CLARITAS EST ETIAM</h4>
+            <a class="image" href="Claritas est.html">
+              <img src="image/page1-img4.jpg" alt="" />
+            </a>
+            <p>
+              Xeim ad minim veniam, quis nostrud exerci tation ullamcorper
+              suscipit
+            </p>
+            <a class="moreInfo" href="Claritas est.html">
+              <span>More Info</span>
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
-    <footer style="position:absolute; background-color:black;">
-        <div class="text"> <span class="name">ESP University</span>
-            <span class="year">2022</span>
-            <a class="privacy_policy" href="#">Plink Company</a></div>
-
+    <footer style="position: absolute; background-color: black">
+      <div class="text">
+        <span class="name">ESP University</span>
+        <span class="year">2022</span>
+        <a class="privacy_policy" href="#">Plink Company</a>
+      </div>
     </footer>
 
-
-
-
     <script src="javaScript/main.js"></script>
-</body>
-
+  </body>
 </html>
