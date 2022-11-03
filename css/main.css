@@ -974,6 +974,15 @@ section .header h3 span::before {
   display: none;
 }
 
+.videos .holder .preview .mnMedan,
+.videos .holder .preview .jimmy,
+.videos .holder .preview .abbodyBad,
+.videos .holder .list #abbodyBadCLick,
+.videos .holder .list #jimmyClick,
+.videos .holder .list #mnMedanClick {
+  display: none !important;
+}
+
 .videos .holder .preview .info {
   padding: 20px;
   background-color: white;
